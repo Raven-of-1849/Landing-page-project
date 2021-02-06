@@ -1,3 +1,37 @@
 body {
   background-color: hsl(257, 40%, 49%);
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}
+
+/* Logo */
+
+.logo-container {
+  width: 100vw;
+}
+
+.brand {
+  height: auto;
+  margin-left: 6.5%;
+  padding: 8% 0 0 7%;
+  position: absolute;
+}
+
+.huddle-logo {
+  width: 32vw;
+  height: auto;
+}
+
+/* background */
+
+.background-image {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.background-svg {
+  width: 100vw;
+  height: auto;
 }

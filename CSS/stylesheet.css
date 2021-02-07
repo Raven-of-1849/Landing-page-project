@@ -144,6 +144,11 @@ height: 4%;
 margin: 5%;
 }
 
+.attribution {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
 .attribution a {
   text-decoration: none;
   color: #FFF;
@@ -151,4 +156,47 @@ margin: 5%;
 
 .attribution a:hover {
   color: teal;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  #title h1 {
+    padding: 2% 11% 1%;
+  }
+
+  #buttons {
+    padding: 3% 0 8% 0;
+  }
+
+  .footing {
+    height: 4%;
+    overflow: hidden;
+    margin: 1%;
+    text-align: center;
+  }
+
+.social-container {
+  padding-top: .5rem;
+}
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .footing{
+    position:relative;
+    bottom: 20rem;
+  }
+
+  #buttons {
+    padding: 2% 0 0 0 ;
+  }
+
+  .social-container {
+    padding-top: 1rem;
+  }
+
+  #title h1 {
+    padding: 0% 10% 1%;
+  }
 }

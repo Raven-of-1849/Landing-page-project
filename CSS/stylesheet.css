@@ -9,7 +9,7 @@ body {
 /* Main */
 
 .landing-page {
-  height: 100vh;
+  max-height: 100vh;
 }
 
 /* Logo */

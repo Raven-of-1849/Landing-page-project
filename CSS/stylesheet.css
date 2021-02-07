@@ -6,6 +6,9 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
 /* Main */
 
 .landing-page {
@@ -131,9 +134,21 @@ body {
   height: 7vw;
 }
 
+.social-container i:hover {
+  color: hsl(300, 69%, 71%) ;
+}
 /* Footer */
 
 .footing {
 height: 4%;
 margin: 5%;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.attribution a:hover {
+  color: teal;
 }

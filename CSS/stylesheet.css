@@ -41,6 +41,10 @@ a {
   width: 100vw;
 }
 
+.desktop-bg {
+  display: none;
+}
+
 .background-svg {
   width: 100vw;
   height: auto;
@@ -199,4 +203,110 @@ margin: 5%;
   #title h1 {
     padding: 0% 10% 1%;
   }
+}
+
+@media screen and (min-width:1024px) {
+  /* Background */
+
+.desktop-arrangement {
+  left: 56.4%;
+  top: 11.5rem;
+  width: 41%;
+  text-align: left;
+  position: relative;
+}
+
+#browser-image-container {
+  position: absolute;
+}
+
+  .browser-image-background {
+  bottom: 13.6%;
+  right: -1%;
+  width: 80vw;
+}
+
+.browser-image-background img {
+  width: 47.5vw;
+  height: 42vw;
+}
+
+  .background-svg {
+    display: none;
+  }
+
+.background-image {
+  height: 69vw;
+  width: 89vw;
+  overflow: hidden;
+}
+
+  .desktop-bg {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  }
+
+  .desktop-bg img {
+    width: 100vw;
+    display: grid;
+    position: absolute;
+  }
+
+  /* Logo */
+
+  .brand {
+    margin-left: -2%;
+    padding-top: 3%;
+  }
+
+  /* Title  */
+  #title h1 {
+    font-size: 1.7rem;
+    margin-right: 2%;
+    text-align: left;
+    padding: 7.8% 24% 1% 0%;
+  }
+
+  .user-message-container {
+    padding: 1% 5% 0 0%;
+    text-align: left;
+  }
+
+  .user-message-container h2 {
+    font-size: .73rem;
+    line-height: 1.9;
+  }
+
+    /* Buttons */
+  .button-container {
+    margin: 0;
+  }
+
+  .button-container button {
+    width: 33%;
+  }
+
+/* Social container */
+
+.social-container {
+  text-align: right !important;
+  padding-top: 3.9rem;
+  padding-right: 4%;
+}
+
+.social-container i {
+    border-radius: 100%;
+    font-size: 1.6vw;
+    /* line-height: 1.5; */
+    /* letter-spacing: -7px; */
+    margin: 0% 1%;
+    padding: 2% 1% 2% 1%;
+    /* width: 51%; */
+    height: 3.7vw; 
+    text-align: center;
+    width: 8.5%;
+}
+
 }

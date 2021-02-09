@@ -205,12 +205,12 @@ margin: 5%;
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1024px) and (max-width: 1440px){
   /* Background */
 
 .desktop-arrangement {
   left: 56.4%;
-  top: 11.5rem;
+  top: 10.8rem;
   width: 41%;
   text-align: left;
   position: relative;
@@ -221,7 +221,7 @@ margin: 5%;
 }
 
   .browser-image-background {
-  bottom: 13.6%;
+  bottom: 14.19%;
   right: -1%;
   width: 80vw;
 }
@@ -257,16 +257,22 @@ margin: 5%;
   /* Logo */
 
   .brand {
-    margin-left: -2%;
+    margin-left: -2.5%;
     padding-top: 3%;
+  }
+
+  .huddle-logo {
+    width: 14vw;
+    height: auto;
   }
 
   /* Title  */
   #title h1 {
-    font-size: 1.7rem;
+    font-size: 1.67rem;
     margin-right: 2%;
     text-align: left;
-    padding: 7.8% 24% 1% 0%;
+    padding: 8.8% 23% 1% 1%;
+    line-height: 2;
   }
 
   .user-message-container {
@@ -280,6 +286,11 @@ margin: 5%;
   }
 
     /* Buttons */
+
+  #buttons {
+    padding: 2% 0 10% 0;
+  }
+
   .button-container {
     margin: 0;
   }
@@ -304,9 +315,142 @@ margin: 5%;
     margin: 0% 1%;
     padding: 2% 1% 2% 1%;
     /* width: 51%; */
-    height: 3.7vw; 
+    height: 3.2vw;
     text-align: center;
     width: 8.5%;
+}
+
+/* Footing */
+
+.footing {
+  padding: 1% 0% 0% 21%;
+  margin: 0;
+}
+
+.attribution {
+  font-size: inherit;
+}
+
+#footer {
+    position: absolute;
+    bottom: 25%;
+    right: 46%;
+    width: 200vw;
+}
+
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+
+/* Logo */
+.brand {
+  margin-left: -2.2%;
+  padding: 4.8% 0 0 7%;
+}
+
+.huddle-logo {
+  width: 15vw;
+}
+
+/* Background */
+
+.background-svg {
+  display: none;
+}
+
+.desktop-bg {
+  display: block;
+}
+
+.background-image {
+  height: 100vh;
+  width: 91vw;
+}
+
+#browser-image-container {
+  position: absolute;
+}
+
+.browser-image-background {
+  bottom: 14.4%;
+  width: 81vw;
+}
+
+.browser-image-background img {
+  width: 48.5vw;
+  height: 61vh;
+}
+
+/* Headings */
+
+#title h1 {
+  font-size: 2.15rem;
+  padding: 7% 30% 0% 0;
+}
+
+.desktop-arrangement {
+  left: 56.4%;
+  top: 10rem;
+  width: 43%;
+  text-align: left;
+  position: relative;
+}
+
+/* Sub Headings */
+
+.user-message-container {
+  padding: 0.2% 9% 0 0;
+}
+
+.user-message-container h2 {
+  font-size: 0.99rem;
+  line-height: 1.7;
+}
+
+/* Buttons  */
+
+#buttons {
+  padding: 0.5% 0 0 0;
+}
+
+.button-container {
+  margin: 0;
+}
+
+.button-container button {
+  font-size: inherit;
+  width: 27%;
+  padding: 1.6%
+}
+
+/* Social media  */
+
+.social-container {
+  padding-top: 10.6rem;
+  padding-left: 22.5%;
+}
+
+.social-container i {
+  height: 2vw;
+  font-size: 1.2vw;
+  padding: 0% 3% 0 3%;
+  margin: 0 1.5%;
+  line-height: 1.5;
+  width: 2.2vw;
+}
+
+/* Credit */
+
+.attribution {
+  font-size: inherit;
+
+}
+
+#footer {
+  position: absolute;
+  bottom: 25%;
+  right: 46%;
+  width: 200vw;
 }
 
 }
